@@ -1,0 +1,54 @@
+[1.654s] Invoking command in '/home/pederba/ros2_ws/src/lab01_pkg': PYTHONPATH=/home/pederba/ros2_ws/build/lab01_pkg/prefix_override:/home/pederba/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab01_pkg build --build-base /home/pederba/ros2_ws/build/lab01_pkg/build install --record /home/pederba/ros2_ws/build/lab01_pkg/install.log --single-version-externally-managed
+[2.059s] running egg_info
+[2.059s] creating ../../build/lab01_pkg/lab01_pkg.egg-info
+[2.087s] writing ../../build/lab01_pkg/lab01_pkg.egg-info/PKG-INFO
+[2.087s] writing dependency_links to ../../build/lab01_pkg/lab01_pkg.egg-info/dependency_links.txt
+[2.088s] writing entry points to ../../build/lab01_pkg/lab01_pkg.egg-info/entry_points.txt
+[2.088s] writing requirements to ../../build/lab01_pkg/lab01_pkg.egg-info/requires.txt
+[2.089s] writing top-level names to ../../build/lab01_pkg/lab01_pkg.egg-info/top_level.txt
+[2.089s] writing manifest file '../../build/lab01_pkg/lab01_pkg.egg-info/SOURCES.txt'
+[2.144s] reading manifest file '../../build/lab01_pkg/lab01_pkg.egg-info/SOURCES.txt'
+[2.145s] writing manifest file '../../build/lab01_pkg/lab01_pkg.egg-info/SOURCES.txt'
+[2.145s] running build
+[2.146s] running build_py
+[2.146s] creating /home/pederba/ros2_ws/build/lab01_pkg/build
+[2.147s] creating /home/pederba/ros2_ws/build/lab01_pkg/build/lib
+[2.147s] creating /home/pederba/ros2_ws/build/lab01_pkg/build/lib/lab01_pkg
+[2.148s] copying lab01_pkg/localization.py -> /home/pederba/ros2_ws/build/lab01_pkg/build/lib/lab01_pkg
+[2.148s] copying lab01_pkg/__init__.py -> /home/pederba/ros2_ws/build/lab01_pkg/build/lib/lab01_pkg
+[2.148s] copying lab01_pkg/controller.py -> /home/pederba/ros2_ws/build/lab01_pkg/build/lib/lab01_pkg
+[2.149s] running install
+[2.153s] /home/pederba/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.153s] !!
+[2.154s] 
+[2.154s]         ********************************************************************************
+[2.154s]         Please avoid running ``setup.py`` directly.
+[2.154s]         Instead, use pypa/build, pypa/installer or other
+[2.155s]         standards-based tools.
+[2.155s] 
+[2.155s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.155s]         ********************************************************************************
+[2.156s] 
+[2.156s] !!
+[2.156s]   self.initialize_options()
+[2.162s] running install_lib
+[2.192s] creating /home/pederba/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg
+[2.192s] copying /home/pederba/ros2_ws/build/lab01_pkg/build/lib/lab01_pkg/localization.py -> /home/pederba/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg
+[2.192s] copying /home/pederba/ros2_ws/build/lab01_pkg/build/lib/lab01_pkg/__init__.py -> /home/pederba/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg
+[2.193s] copying /home/pederba/ros2_ws/build/lab01_pkg/build/lib/lab01_pkg/controller.py -> /home/pederba/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg
+[2.193s] byte-compiling /home/pederba/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg/localization.py to localization.cpython-310.pyc
+[2.194s] byte-compiling /home/pederba/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg/__init__.py to __init__.cpython-310.pyc
+[2.195s] byte-compiling /home/pederba/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg/controller.py to controller.cpython-310.pyc
+[2.196s] running install_data
+[2.225s] creating /home/pederba/ros2_ws/install/lab01_pkg/share/ament_index
+[2.226s] creating /home/pederba/ros2_ws/install/lab01_pkg/share/ament_index/resource_index
+[2.226s] creating /home/pederba/ros2_ws/install/lab01_pkg/share/ament_index/resource_index/packages
+[2.226s] copying resource/lab01_pkg -> /home/pederba/ros2_ws/install/lab01_pkg/share/ament_index/resource_index/packages
+[2.226s] copying package.xml -> /home/pederba/ros2_ws/install/lab01_pkg/share/lab01_pkg
+[2.227s] running install_egg_info
+[2.259s] Copying ../../build/lab01_pkg/lab01_pkg.egg-info to /home/pederba/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg-0.0.0-py3.10.egg-info
+[2.261s] running install_scripts
+[2.547s] Installing controller script to /home/pederba/ros2_ws/install/lab01_pkg/lib/lab01_pkg
+[2.548s] Installing localization script to /home/pederba/ros2_ws/install/lab01_pkg/lib/lab01_pkg
+[2.548s] writing list of installed files to '/home/pederba/ros2_ws/build/lab01_pkg/install.log'
+[2.604s] Invoked command in '/home/pederba/ros2_ws/src/lab01_pkg' returned '0': PYTHONPATH=/home/pederba/ros2_ws/build/lab01_pkg/prefix_override:/home/pederba/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab01_pkg build --build-base /home/pederba/ros2_ws/build/lab01_pkg/build install --record /home/pederba/ros2_ws/build/lab01_pkg/install.log --single-version-externally-managed
