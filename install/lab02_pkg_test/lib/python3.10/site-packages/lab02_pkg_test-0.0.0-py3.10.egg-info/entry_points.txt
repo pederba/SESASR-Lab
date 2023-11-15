@@ -1,0 +1,2 @@
+[console_scripts]
+compute_trajectory = lab02_pkg_test.compute_trajectory:main

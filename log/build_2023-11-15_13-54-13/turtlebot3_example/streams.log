@@ -1,0 +1,38 @@
+[3.889s] Invoking command in '/home/pederba/ros2_ws/src/turtlebot3/turtlebot3_example': CMAKE_PREFIX_PATH=/home/pederba/ros2_ws/install/turtlebot3_msgs:/home/pederba/ros2_ws/install/turtlesim:/home/pederba/ros2_ws/install/turtlebot3:/home/pederba/ros2_ws/install/turtlebot3_simulations:/home/pederba/ros2_ws/install/turtlebot3_navigation2:/home/pederba/ros2_ws/install/turtlebot3_fake_node:/home/pederba/ros2_ws/install/turtlebot3_hardware:/home/pederba/ros2_ws/install/turtlebot3_gazebo:/home/pederba/ros2_ws/install/turtlebot3_bringup:/home/pederba/ros2_ws/install/turtlebot3_description:/home/pederba/ros2_ws/install/turtlebot3_cartographer:/home/pederba/ros2_ws/install/lab02_interfaces:/home/pederba/ros2_ws/install/dynamixel_sdk_examples:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/pederba/ros2_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/pederba/ros2_ws/install/turtlebot3_msgs/lib:/home/pederba/ros2_ws/install/turtlesim/lib:/home/pederba/ros2_ws/install/turtlebot3_hardware/lib:/home/pederba/ros2_ws/install/lab02_interfaces/lib:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pederba/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pederba/ros2_ws/build/turtlebot3_example/prefix_override:/home/pederba/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/pederba/ros2_ws/build/turtlebot3_example/build install --record /home/pederba/ros2_ws/build/turtlebot3_example/install.log --single-version-externally-managed
+[4.516s] running egg_info
+[4.562s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[4.562s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[4.565s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[4.569s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[4.569s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[4.666s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[4.670s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[4.670s] running build
+[4.670s] running build_py
+[4.672s] running install
+[4.673s] /home/pederba/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.674s] !!
+[4.674s] 
+[4.675s]         ********************************************************************************
+[4.675s]         Please avoid running ``setup.py`` directly.
+[4.675s]         Instead, use pypa/build, pypa/installer or other
+[4.676s]         standards-based tools.
+[4.676s] 
+[4.677s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.677s]         ********************************************************************************
+[4.678s] 
+[4.678s] !!
+[4.678s]   self.initialize_options()
+[4.687s] running install_lib
+[4.733s] running install_data
+[4.774s] running install_egg_info
+[4.813s] removing '/home/pederba/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info' (and everything under it)
+[4.813s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/pederba/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info
+[4.816s] running install_scripts
+[5.254s] Installing turtlebot3_interactive_marker script to /home/pederba/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.255s] Installing turtlebot3_obstacle_detection script to /home/pederba/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.255s] Installing turtlebot3_patrol_client script to /home/pederba/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.255s] Installing turtlebot3_patrol_server script to /home/pederba/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.256s] Installing turtlebot3_position_control_pointop_key script to /home/pederba/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.259s] writing list of installed files to '/home/pederba/ros2_ws/build/turtlebot3_example/install.log'
+[5.453s] Invoked command in '/home/pederba/ros2_ws/src/turtlebot3/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/pederba/ros2_ws/install/turtlebot3_msgs:/home/pederba/ros2_ws/install/turtlesim:/home/pederba/ros2_ws/install/turtlebot3:/home/pederba/ros2_ws/install/turtlebot3_simulations:/home/pederba/ros2_ws/install/turtlebot3_navigation2:/home/pederba/ros2_ws/install/turtlebot3_fake_node:/home/pederba/ros2_ws/install/turtlebot3_hardware:/home/pederba/ros2_ws/install/turtlebot3_gazebo:/home/pederba/ros2_ws/install/turtlebot3_bringup:/home/pederba/ros2_ws/install/turtlebot3_description:/home/pederba/ros2_ws/install/turtlebot3_cartographer:/home/pederba/ros2_ws/install/lab02_interfaces:/home/pederba/ros2_ws/install/dynamixel_sdk_examples:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/pederba/ros2_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/pederba/ros2_ws/install/turtlebot3_msgs/lib:/home/pederba/ros2_ws/install/turtlesim/lib:/home/pederba/ros2_ws/install/turtlebot3_hardware/lib:/home/pederba/ros2_ws/install/lab02_interfaces/lib:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pederba/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pederba/ros2_ws/build/turtlebot3_example/prefix_override:/home/pederba/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/pederba/ros2_ws/build/turtlebot3_example/build install --record /home/pederba/ros2_ws/build/turtlebot3_example/install.log --single-version-externally-managed

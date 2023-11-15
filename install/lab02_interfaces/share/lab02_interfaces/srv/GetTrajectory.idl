@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lab02_interfaces/srv/GetTrajectory.srv
+// generated code does not contain a copyright notice
+
+
+module lab02_interfaces {
+  module srv {
+    struct GetTrajectory_Request {
+      double x;
+
+      double y;
+    };
+    struct GetTrajectory_Response {
+      double direction;
+
+      double distance;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+{
+  "package_name": "lab02_interfaces",
+  "non_idl_tuples": [
+    "/home/pederba/ros2_ws/src/lab02_interfaces:srv/GetTrajectory.srv"
+  ]
+}

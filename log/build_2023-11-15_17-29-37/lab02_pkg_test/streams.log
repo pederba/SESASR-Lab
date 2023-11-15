@@ -1,0 +1,38 @@
+[1.923s] Invoking command in '/home/pederba/ros2_ws/src/lab02_pkg_test': CMAKE_PREFIX_PATH=/home/pederba/ros2_ws/install/turtlesim:/home/pederba/ros2_ws/install/lab02_interfaces:/home/pederba/ros2_ws/install/turtlebot3:/home/pederba/ros2_ws/install/turtlebot3_simulations:/home/pederba/ros2_ws/install/turtlebot3_navigation2:/home/pederba/ros2_ws/install/turtlebot3_fake_node:/home/pederba/ros2_ws/install/turtlebot3_msgs:/home/pederba/ros2_ws/install/turtlebot3_hardware:/home/pederba/ros2_ws/install/turtlebot3_gazebo:/home/pederba/ros2_ws/install/turtlebot3_bringup:/home/pederba/ros2_ws/install/turtlebot3_description:/home/pederba/ros2_ws/install/turtlebot3_cartographer:/home/pederba/ros2_ws/install/dynamixel_sdk_examples:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/pederba/ros2_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/pederba/ros2_ws/install/turtlesim/lib:/home/pederba/ros2_ws/install/lab02_interfaces/lib:/home/pederba/ros2_ws/install/turtlebot3_msgs/lib:/home/pederba/ros2_ws/install/turtlebot3_hardware/lib:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pederba/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pederba/ros2_ws/build/lab02_pkg_test/prefix_override:/home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab02_pkg_test build --build-base /home/pederba/ros2_ws/build/lab02_pkg_test/build install --record /home/pederba/ros2_ws/build/lab02_pkg_test/install.log --single-version-externally-managed
+[2.378s] running egg_info
+[2.407s] writing ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/PKG-INFO
+[2.408s] writing dependency_links to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/dependency_links.txt
+[2.409s] writing entry points to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/entry_points.txt
+[2.409s] writing requirements to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/requires.txt
+[2.409s] writing top-level names to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/top_level.txt
+[2.496s] reading manifest file '../../build/lab02_pkg_test/lab02_pkg_test.egg-info/SOURCES.txt'
+[2.498s] writing manifest file '../../build/lab02_pkg_test/lab02_pkg_test.egg-info/SOURCES.txt'
+[2.499s] running build
+[2.499s] running build_py
+[2.499s] copying lab02_pkg_test/compute_trajectory.py -> /home/pederba/ros2_ws/build/lab02_pkg_test/build/lib/lab02_pkg_test
+[2.500s] running install
+[2.501s] /home/pederba/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.501s] !!
+[2.501s] 
+[2.501s]         ********************************************************************************
+[2.501s]         Please avoid running ``setup.py`` directly.
+[2.501s]         Instead, use pypa/build, pypa/installer or other
+[2.501s]         standards-based tools.
+[2.502s] 
+[2.502s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.502s]         ********************************************************************************
+[2.502s] 
+[2.502s] !!
+[2.502s]   self.initialize_options()
+[2.516s] running install_lib
+[2.554s] copying /home/pederba/ros2_ws/build/lab02_pkg_test/build/lib/lab02_pkg_test/compute_trajectory.py -> /home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages/lab02_pkg_test
+[2.555s] byte-compiling /home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages/lab02_pkg_test/compute_trajectory.py to compute_trajectory.cpython-310.pyc
+[2.556s] running install_data
+[2.589s] copying package.xml -> /home/pederba/ros2_ws/install/lab02_pkg_test/share/lab02_pkg_test
+[2.590s] running install_egg_info
+[2.623s] removing '/home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages/lab02_pkg_test-0.0.0-py3.10.egg-info' (and everything under it)
+[2.623s] Copying ../../build/lab02_pkg_test/lab02_pkg_test.egg-info to /home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages/lab02_pkg_test-0.0.0-py3.10.egg-info
+[2.626s] running install_scripts
+[2.925s] Installing compute_trajectory script to /home/pederba/ros2_ws/install/lab02_pkg_test/lib/lab02_pkg_test
+[2.926s] writing list of installed files to '/home/pederba/ros2_ws/build/lab02_pkg_test/install.log'
+[2.990s] Invoked command in '/home/pederba/ros2_ws/src/lab02_pkg_test' returned '0': CMAKE_PREFIX_PATH=/home/pederba/ros2_ws/install/turtlesim:/home/pederba/ros2_ws/install/lab02_interfaces:/home/pederba/ros2_ws/install/turtlebot3:/home/pederba/ros2_ws/install/turtlebot3_simulations:/home/pederba/ros2_ws/install/turtlebot3_navigation2:/home/pederba/ros2_ws/install/turtlebot3_fake_node:/home/pederba/ros2_ws/install/turtlebot3_msgs:/home/pederba/ros2_ws/install/turtlebot3_hardware:/home/pederba/ros2_ws/install/turtlebot3_gazebo:/home/pederba/ros2_ws/install/turtlebot3_bringup:/home/pederba/ros2_ws/install/turtlebot3_description:/home/pederba/ros2_ws/install/turtlebot3_cartographer:/home/pederba/ros2_ws/install/dynamixel_sdk_examples:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/pederba/ros2_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/pederba/ros2_ws/install/turtlesim/lib:/home/pederba/ros2_ws/install/lab02_interfaces/lib:/home/pederba/ros2_ws/install/turtlebot3_msgs/lib:/home/pederba/ros2_ws/install/turtlebot3_hardware/lib:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pederba/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pederba/ros2_ws/build/lab02_pkg_test/prefix_override:/home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab02_pkg_test build --build-base /home/pederba/ros2_ws/build/lab02_pkg_test/build install --record /home/pederba/ros2_ws/build/lab02_pkg_test/install.log --single-version-externally-managed

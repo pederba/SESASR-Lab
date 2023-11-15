@@ -1,0 +1,34 @@
+[5.858s] Invoking command in '/home/pederba/ros2_ws/src/lab02_pkg_test': PYTHONPATH=/home/pederba/ros2_ws/build/lab02_pkg_test/prefix_override:/home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab02_pkg_test build --build-base /home/pederba/ros2_ws/build/lab02_pkg_test/build install --record /home/pederba/ros2_ws/build/lab02_pkg_test/install.log --single-version-externally-managed
+[6.419s] running egg_info
+[6.458s] writing ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/PKG-INFO
+[6.458s] writing dependency_links to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/dependency_links.txt
+[6.459s] writing entry points to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/entry_points.txt
+[6.459s] writing requirements to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/requires.txt
+[6.460s] writing top-level names to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/top_level.txt
+[6.533s] reading manifest file '../../build/lab02_pkg_test/lab02_pkg_test.egg-info/SOURCES.txt'
+[6.535s] writing manifest file '../../build/lab02_pkg_test/lab02_pkg_test.egg-info/SOURCES.txt'
+[6.535s] running build
+[6.535s] running build_py
+[6.536s] running install
+[6.536s] /home/pederba/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[6.536s] !!
+[6.537s] 
+[6.537s]         ********************************************************************************
+[6.537s]         Please avoid running ``setup.py`` directly.
+[6.538s]         Instead, use pypa/build, pypa/installer or other
+[6.538s]         standards-based tools.
+[6.538s] 
+[6.538s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[6.539s]         ********************************************************************************
+[6.539s] 
+[6.539s] !!
+[6.540s]   self.initialize_options()
+[6.547s] running install_lib
+[6.586s] running install_data
+[6.625s] running install_egg_info
+[6.696s] removing '/home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages/lab02_pkg_test-0.0.0-py3.10.egg-info' (and everything under it)
+[6.704s] Copying ../../build/lab02_pkg_test/lab02_pkg_test.egg-info to /home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages/lab02_pkg_test-0.0.0-py3.10.egg-info
+[6.705s] running install_scripts
+[7.320s] Installing compute_trajectory script to /home/pederba/ros2_ws/install/lab02_pkg_test/lib/lab02_pkg_test
+[7.320s] writing list of installed files to '/home/pederba/ros2_ws/build/lab02_pkg_test/install.log'
+[7.781s] Invoked command in '/home/pederba/ros2_ws/src/lab02_pkg_test' returned '0': PYTHONPATH=/home/pederba/ros2_ws/build/lab02_pkg_test/prefix_override:/home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab02_pkg_test build --build-base /home/pederba/ros2_ws/build/lab02_pkg_test/build install --record /home/pederba/ros2_ws/build/lab02_pkg_test/install.log --single-version-externally-managed

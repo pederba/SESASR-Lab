@@ -1,0 +1,37 @@
+[3.404s] Invoking command in '/home/pederba/ros2_ws/src/lab02_pkg_test': CMAKE_PREFIX_PATH=/home/pederba/ros2_ws/install/lab02_interfaces:/home/pederba/ros2_ws/install/turtlesim:/home/pederba/ros2_ws/install/turtlebot3:/home/pederba/ros2_ws/install/turtlebot3_simulations:/home/pederba/ros2_ws/install/turtlebot3_navigation2:/home/pederba/ros2_ws/install/turtlebot3_fake_node:/home/pederba/ros2_ws/install/turtlebot3_msgs:/home/pederba/ros2_ws/install/turtlebot3_hardware:/home/pederba/ros2_ws/install/turtlebot3_gazebo:/home/pederba/ros2_ws/install/turtlebot3_bringup:/home/pederba/ros2_ws/install/turtlebot3_description:/home/pederba/ros2_ws/install/turtlebot3_cartographer:/home/pederba/ros2_ws/install/dynamixel_sdk_examples:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/pederba/ros2_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/pederba/ros2_ws/install/lab02_interfaces/lib:/home/pederba/ros2_ws/install/turtlesim/lib:/home/pederba/ros2_ws/install/turtlebot3_msgs/lib:/home/pederba/ros2_ws/install/turtlebot3_hardware/lib:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pederba/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pederba/ros2_ws/build/lab02_pkg_test/prefix_override:/home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab02_pkg_test build --build-base /home/pederba/ros2_ws/build/lab02_pkg_test/build install --record /home/pederba/ros2_ws/build/lab02_pkg_test/install.log --single-version-externally-managed
+[4.005s] running egg_info
+[4.037s] writing ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/PKG-INFO
+[4.039s] writing dependency_links to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/dependency_links.txt
+[4.039s] writing entry points to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/entry_points.txt
+[4.040s] writing requirements to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/requires.txt
+[4.040s] writing top-level names to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/top_level.txt
+[4.101s] reading manifest file '../../build/lab02_pkg_test/lab02_pkg_test.egg-info/SOURCES.txt'
+[4.106s] writing manifest file '../../build/lab02_pkg_test/lab02_pkg_test.egg-info/SOURCES.txt'
+[4.107s] running build
+[4.107s] running build_py
+[4.108s] copying lab02_pkg_test/compute_trajectory.py -> /home/pederba/ros2_ws/build/lab02_pkg_test/build/lib/lab02_pkg_test
+[4.108s] running install
+[4.109s] /home/pederba/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.110s] !!
+[4.110s] 
+[4.111s]         ********************************************************************************
+[4.112s]         Please avoid running ``setup.py`` directly.
+[4.112s]         Instead, use pypa/build, pypa/installer or other
+[4.113s]         standards-based tools.
+[4.114s] 
+[4.115s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.116s]         ********************************************************************************
+[4.117s] 
+[4.119s] !!
+[4.123s]   self.initialize_options()
+[4.128s] running install_lib
+[4.153s] copying /home/pederba/ros2_ws/build/lab02_pkg_test/build/lib/lab02_pkg_test/compute_trajectory.py -> /home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages/lab02_pkg_test
+[4.154s] byte-compiling /home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages/lab02_pkg_test/compute_trajectory.py to compute_trajectory.cpython-310.pyc
+[4.155s] running install_data
+[4.186s] running install_egg_info
+[4.221s] removing '/home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages/lab02_pkg_test-0.0.0-py3.10.egg-info' (and everything under it)
+[4.227s] Copying ../../build/lab02_pkg_test/lab02_pkg_test.egg-info to /home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages/lab02_pkg_test-0.0.0-py3.10.egg-info
+[4.227s] running install_scripts
+[4.548s] Installing compute_trajectory script to /home/pederba/ros2_ws/install/lab02_pkg_test/lib/lab02_pkg_test
+[4.549s] writing list of installed files to '/home/pederba/ros2_ws/build/lab02_pkg_test/install.log'
+[4.631s] Invoked command in '/home/pederba/ros2_ws/src/lab02_pkg_test' returned '0': CMAKE_PREFIX_PATH=/home/pederba/ros2_ws/install/lab02_interfaces:/home/pederba/ros2_ws/install/turtlesim:/home/pederba/ros2_ws/install/turtlebot3:/home/pederba/ros2_ws/install/turtlebot3_simulations:/home/pederba/ros2_ws/install/turtlebot3_navigation2:/home/pederba/ros2_ws/install/turtlebot3_fake_node:/home/pederba/ros2_ws/install/turtlebot3_msgs:/home/pederba/ros2_ws/install/turtlebot3_hardware:/home/pederba/ros2_ws/install/turtlebot3_gazebo:/home/pederba/ros2_ws/install/turtlebot3_bringup:/home/pederba/ros2_ws/install/turtlebot3_description:/home/pederba/ros2_ws/install/turtlebot3_cartographer:/home/pederba/ros2_ws/install/dynamixel_sdk_examples:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/pederba/ros2_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/pederba/ros2_ws/install/lab02_interfaces/lib:/home/pederba/ros2_ws/install/turtlesim/lib:/home/pederba/ros2_ws/install/turtlebot3_msgs/lib:/home/pederba/ros2_ws/install/turtlebot3_hardware/lib:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pederba/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pederba/ros2_ws/build/lab02_pkg_test/prefix_override:/home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab02_pkg_test build --build-base /home/pederba/ros2_ws/build/lab02_pkg_test/build install --record /home/pederba/ros2_ws/build/lab02_pkg_test/install.log --single-version-externally-managed
