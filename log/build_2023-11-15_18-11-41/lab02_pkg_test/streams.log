@@ -1,0 +1,34 @@
+[3.768s] Invoking command in '/home/pederba/ros2_ws/src/lab02_pkg_test': CMAKE_PREFIX_PATH=/home/pederba/ros2_ws/install/turtlesim:/home/pederba/ros2_ws/install/lab02_interfaces:/home/pederba/ros2_ws/install/turtlebot3:/home/pederba/ros2_ws/install/turtlebot3_simulations:/home/pederba/ros2_ws/install/turtlebot3_navigation2:/home/pederba/ros2_ws/install/turtlebot3_fake_node:/home/pederba/ros2_ws/install/turtlebot3_msgs:/home/pederba/ros2_ws/install/turtlebot3_hardware:/home/pederba/ros2_ws/install/turtlebot3_gazebo:/home/pederba/ros2_ws/install/turtlebot3_bringup:/home/pederba/ros2_ws/install/turtlebot3_description:/home/pederba/ros2_ws/install/turtlebot3_cartographer:/home/pederba/ros2_ws/install/dynamixel_sdk_examples:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/pederba/ros2_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/pederba/ros2_ws/install/turtlesim/lib:/home/pederba/ros2_ws/install/lab02_interfaces/lib:/home/pederba/ros2_ws/install/turtlebot3_msgs/lib:/home/pederba/ros2_ws/install/turtlebot3_hardware/lib:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pederba/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pederba/ros2_ws/build/lab02_pkg_test/prefix_override:/home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab02_pkg_test build --build-base /home/pederba/ros2_ws/build/lab02_pkg_test/build install --record /home/pederba/ros2_ws/build/lab02_pkg_test/install.log --single-version-externally-managed
+[4.148s] running egg_info
+[4.171s] writing ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/PKG-INFO
+[4.172s] writing dependency_links to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/dependency_links.txt
+[4.172s] writing entry points to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/entry_points.txt
+[4.173s] writing requirements to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/requires.txt
+[4.173s] writing top-level names to ../../build/lab02_pkg_test/lab02_pkg_test.egg-info/top_level.txt
+[4.220s] reading manifest file '../../build/lab02_pkg_test/lab02_pkg_test.egg-info/SOURCES.txt'
+[4.221s] writing manifest file '../../build/lab02_pkg_test/lab02_pkg_test.egg-info/SOURCES.txt'
+[4.221s] running build
+[4.222s] running build_py
+[4.222s] running install
+[4.223s] /home/pederba/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.223s] !!
+[4.223s] 
+[4.224s]         ********************************************************************************
+[4.224s]         Please avoid running ``setup.py`` directly.
+[4.224s]         Instead, use pypa/build, pypa/installer or other
+[4.224s]         standards-based tools.
+[4.225s] 
+[4.225s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.225s]         ********************************************************************************
+[4.225s] 
+[4.226s] !!
+[4.226s]   self.initialize_options()
+[4.233s] running install_lib
+[4.260s] running install_data
+[4.283s] running install_egg_info
+[4.307s] removing '/home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages/lab02_pkg_test-0.0.0-py3.10.egg-info' (and everything under it)
+[4.307s] Copying ../../build/lab02_pkg_test/lab02_pkg_test.egg-info to /home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages/lab02_pkg_test-0.0.0-py3.10.egg-info
+[4.309s] running install_scripts
+[4.530s] Installing compute_trajectory script to /home/pederba/ros2_ws/install/lab02_pkg_test/lib/lab02_pkg_test
+[4.531s] writing list of installed files to '/home/pederba/ros2_ws/build/lab02_pkg_test/install.log'
+[4.588s] Invoked command in '/home/pederba/ros2_ws/src/lab02_pkg_test' returned '0': CMAKE_PREFIX_PATH=/home/pederba/ros2_ws/install/turtlesim:/home/pederba/ros2_ws/install/lab02_interfaces:/home/pederba/ros2_ws/install/turtlebot3:/home/pederba/ros2_ws/install/turtlebot3_simulations:/home/pederba/ros2_ws/install/turtlebot3_navigation2:/home/pederba/ros2_ws/install/turtlebot3_fake_node:/home/pederba/ros2_ws/install/turtlebot3_msgs:/home/pederba/ros2_ws/install/turtlebot3_hardware:/home/pederba/ros2_ws/install/turtlebot3_gazebo:/home/pederba/ros2_ws/install/turtlebot3_bringup:/home/pederba/ros2_ws/install/turtlebot3_description:/home/pederba/ros2_ws/install/turtlebot3_cartographer:/home/pederba/ros2_ws/install/dynamixel_sdk_examples:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/pederba/ros2_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/pederba/ros2_ws/install/turtlesim/lib:/home/pederba/ros2_ws/install/lab02_interfaces/lib:/home/pederba/ros2_ws/install/turtlebot3_msgs/lib:/home/pederba/ros2_ws/install/turtlebot3_hardware/lib:/home/pederba/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pederba/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pederba/ros2_ws/build/lab02_pkg_test/prefix_override:/home/pederba/ros2_ws/install/lab02_pkg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab02_pkg_test build --build-base /home/pederba/ros2_ws/build/lab02_pkg_test/build install --record /home/pederba/ros2_ws/build/lab02_pkg_test/install.log --single-version-externally-managed

@@ -9,7 +9,7 @@
 /home/pederba/ros2_ws/build/lab02_interfaces/CMakeFiles/lab02_interfaces__rosidl_typesupport_c.dir
 /home/pederba/ros2_ws/build/lab02_interfaces/CMakeFiles/lab02_interfaces__rosidl_typesupport_introspection_cpp.dir
 /home/pederba/ros2_ws/build/lab02_interfaces/CMakeFiles/lab02_interfaces__rosidl_typesupport_cpp.dir
-/home/pederba/ros2_ws/build/lab02_interfaces/CMakeFiles/ament_cmake_python_copy_lab02_interfaces.dir
+/home/pederba/ros2_ws/build/lab02_interfaces/CMakeFiles/ament_cmake_python_symlink_lab02_interfaces.dir
 /home/pederba/ros2_ws/build/lab02_interfaces/CMakeFiles/ament_cmake_python_build_lab02_interfaces_egg.dir
 /home/pederba/ros2_ws/build/lab02_interfaces/CMakeFiles/lab02_interfaces__rosidl_generator_py.dir
 /home/pederba/ros2_ws/build/lab02_interfaces/CMakeFiles/lab02_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir

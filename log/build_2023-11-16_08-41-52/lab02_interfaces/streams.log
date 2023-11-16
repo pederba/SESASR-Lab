@@ -1,0 +1,36 @@
+[0.439s] Invoking command in '/home/pederba/ros2_ws/build/lab02_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake /home/pederba/ros2_ws/src/lab02_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pederba/ros2_ws/install/lab02_interfaces
+[0.472s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.902s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.923s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.001s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.013s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.030s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.062s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.421s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.081s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.875s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.251s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.320s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.321s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.321s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.367s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.399s] -- Added test 'lint_cmake' to check CMake code style
+[3.403s] -- Added test 'xmllint' to check XML markup files
+[3.410s] -- Configuring done
+[3.487s] -- Generating done
+[3.496s] -- Build files have been written to: /home/pederba/ros2_ws/build/lab02_interfaces
+[4.531s] Invoked command in '/home/pederba/ros2_ws/build/lab02_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake /home/pederba/ros2_ws/src/lab02_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pederba/ros2_ws/install/lab02_interfaces
+[4.533s] Invoking command in '/home/pederba/ros2_ws/build/lab02_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pederba/ros2_ws/build/lab02_interfaces -- -j8 -l8
+[4.693s] [35m[1mConsolidate compiler generated dependencies of target lab02_interfaces__rosidl_generator_c[0m
+[4.788s] [  9%] Built target lab02_interfaces__rosidl_generator_c
+[4.795s] failed to create symbolic link '/home/pederba/ros2_ws/build/lab02_interfaces/ament_cmake_python/lab02_interfaces/lab02_interfaces' because existing path cannot be removed: Is a directory
+[4.798s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_lab02_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_lab02_interfaces] Error 1
+[4.804s] [ 12%] Built target lab02_interfaces__cpp
+[4.805s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_lab02_interfaces.dir/all] Error 2
+[4.805s] gmake[1]: *** Waiting for unfinished jobs....
+[4.836s] [35m[1mConsolidate compiler generated dependencies of target lab02_interfaces__rosidl_typesupport_introspection_c[0m
+[4.914s] [ 22%] Built target lab02_interfaces__rosidl_typesupport_introspection_c
+[4.918s] gmake: *** [Makefile:146: all] Error 2
+[4.924s] Invoked command in '/home/pederba/ros2_ws/build/lab02_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pederba/ros2_ws/build/lab02_interfaces -- -j8 -l8

@@ -1,0 +1,182 @@
+[0.656s] Invoking command in '/home/pederba/ros2_ws/build/lab02_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pederba/ros2_ws/build/lab02_interfaces -- -j8 -l8
+[0.856s] [  3%] Built target lab02_interfaces__cpp
+[0.896s] [ 12%] Built target lab02_interfaces__rosidl_generator_c
+[1.041s] [ 22%] Built target lab02_interfaces__rosidl_typesupport_cpp
+[1.059s] [ 22%] Built target ament_cmake_python_copy_lab02_interfaces
+[1.176s] [ 32%] Built target lab02_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.218s] [ 41%] Built target lab02_interfaces__rosidl_typesupport_introspection_cpp
+[1.255s] [ 51%] Built target lab02_interfaces__rosidl_typesupport_introspection_c
+[1.255s] [ 61%] Built target lab02_interfaces__rosidl_typesupport_fastrtps_c
+[1.270s] [ 70%] Built target lab02_interfaces__rosidl_typesupport_c
+[1.388s] [ 70%] Built target lab02_interfaces
+[1.471s] [ 74%] Built target lab02_interfaces__py
+[1.559s] [ 80%] Built target lab02_interfaces__rosidl_generator_py
+[1.731s] [ 87%] Built target lab02_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.755s] [ 93%] Built target lab02_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.758s] [100%] Built target lab02_interfaces__rosidl_typesupport_c__pyext
+[2.080s] running egg_info
+[2.144s] writing lab02_interfaces.egg-info/PKG-INFO
+[2.145s] writing dependency_links to lab02_interfaces.egg-info/dependency_links.txt
+[2.150s] writing top-level names to lab02_interfaces.egg-info/top_level.txt
+[2.300s] reading manifest file 'lab02_interfaces.egg-info/SOURCES.txt'
+[2.301s] writing manifest file 'lab02_interfaces.egg-info/SOURCES.txt'
+[2.402s] [100%] Built target ament_cmake_python_build_lab02_interfaces_egg
+[3.451s] Invoked command in '/home/pederba/ros2_ws/build/lab02_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pederba/ros2_ws/build/lab02_interfaces -- -j8 -l8
+[5.017s] Invoking command in '/home/pederba/ros2_ws/build/lab02_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pederba/ros2_ws/build/lab02_interfaces
+[5.074s] -- Install configuration: ""
+[5.075s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/ament_index/resource_index/rosidl_interfaces/lab02_interfaces
+[5.076s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces
+[5.077s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv
+[5.077s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/cmd_move.h
+[5.078s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/get_trajectory.h
+[5.079s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/compute_trajectory.h
+[5.084s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail
+[5.085s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__functions.c
+[5.085s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__type_support.h
+[5.085s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__struct.h
+[5.086s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__struct.h
+[5.086s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__functions.h
+[5.086s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__functions.h
+[5.086s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__functions.h
+[5.086s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__functions.c
+[5.086s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__struct.h
+[5.087s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__type_support.h
+[5.087s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__type_support.h
+[5.087s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__functions.c
+[5.087s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/msg
+[5.087s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.088s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/environment/library_path.sh
+[5.088s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/environment/library_path.dsv
+[5.088s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/lib/liblab02_interfaces__rosidl_generator_c.so
+[5.088s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces
+[5.088s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv
+[5.088s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail
+[5.088s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__rosidl_typesupport_fastrtps_c.h
+[5.089s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__rosidl_typesupport_fastrtps_c.h
+[5.089s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__rosidl_typesupport_fastrtps_c.h
+[5.089s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/msg
+[5.089s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.089s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/lib/liblab02_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.089s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces
+[5.090s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv
+[5.090s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/get_trajectory.hpp
+[5.090s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/cmd_move.hpp
+[5.090s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/compute_trajectory.hpp
+[5.090s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail
+[5.090s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__builder.hpp
+[5.091s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__traits.hpp
+[5.091s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__struct.hpp
+[5.091s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__struct.hpp
+[5.091s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__builder.hpp
+[5.091s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__traits.hpp
+[5.092s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__struct.hpp
+[5.092s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__traits.hpp
+[5.092s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__builder.hpp
+[5.092s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces
+[5.092s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv
+[5.093s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail
+[5.093s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/dds_fastrtps
+[5.093s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__rosidl_typesupport_fastrtps_cpp.hpp
+[5.093s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[5.093s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[5.094s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/msg
+[5.094s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.094s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/lib/liblab02_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.094s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces
+[5.094s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv
+[5.094s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail
+[5.094s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__type_support.c
+[5.095s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__type_support.c
+[5.095s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__rosidl_typesupport_introspection_c.h
+[5.095s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__rosidl_typesupport_introspection_c.h
+[5.095s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__type_support.c
+[5.095s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__rosidl_typesupport_introspection_c.h
+[5.095s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/msg
+[5.096s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.096s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/lib/liblab02_interfaces__rosidl_typesupport_introspection_c.so
+[5.098s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/lib/liblab02_interfaces__rosidl_typesupport_c.so
+[5.099s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces
+[5.101s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv
+[5.111s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail
+[5.112s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[5.112s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/get_trajectory__type_support.cpp
+[5.112s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__type_support.cpp
+[5.112s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/cmd_move__rosidl_typesupport_introspection_cpp.hpp
+[5.113s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[5.113s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/include/lab02_interfaces/lab02_interfaces/srv/detail/compute_trajectory__type_support.cpp
+[5.113s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/lib/liblab02_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.113s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/lib/liblab02_interfaces__rosidl_typesupport_cpp.so
+[5.113s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/environment/pythonpath.sh
+[5.113s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/environment/pythonpath.dsv
+[5.114s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces-0.0.0-py3.10.egg-info
+[5.114s] -- Installing: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.114s] -- Installing: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.114s] -- Installing: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.114s] -- Installing: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.115s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces
+[5.115s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/lab02_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.115s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/_lab02_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.115s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/liblab02_interfaces__rosidl_generator_py.so
+[5.115s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/lab02_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.115s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/lab02_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.116s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/srv
+[5.116s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/srv/_compute_trajectory_s.c
+[5.116s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/srv/_get_trajectory.py
+[5.116s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/srv/_cmd_move_s.c
+[5.116s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/srv/_get_trajectory_s.c
+[5.116s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/srv/_cmd_move.py
+[5.117s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/srv/_compute_trajectory.py
+[5.117s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/srv/__init__.py
+[5.117s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/_lab02_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.117s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/__init__.py
+[5.117s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/_lab02_interfaces_s.ep.rosidl_typesupport_c.c
+[5.310s] Listing '/home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces'...
+[5.311s] Listing '/home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/srv'...
+[5.320s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/lab02_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.321s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/lab02_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.322s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/local/lib/python3.10/dist-packages/lab02_interfaces/lab02_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.323s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/lib/liblab02_interfaces__rosidl_generator_py.so
+[5.325s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/srv/GetTrajectory.idl
+[5.325s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/srv/GetTrajectory.srv
+[5.326s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/srv/GetTrajectory_Request.msg
+[5.326s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/srv/GetTrajectory_Response.msg
+[5.326s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/ament_index/resource_index/package_run_dependencies/lab02_interfaces
+[5.326s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/ament_index/resource_index/parent_prefix_path/lab02_interfaces
+[5.327s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/environment/ament_prefix_path.sh
+[5.327s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/environment/ament_prefix_path.dsv
+[5.328s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/environment/path.sh
+[5.328s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/environment/path.dsv
+[5.328s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/local_setup.bash
+[5.343s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/local_setup.sh
+[5.343s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/local_setup.zsh
+[5.343s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/local_setup.dsv
+[5.344s] -- Installing: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/package.dsv
+[5.344s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/ament_index/resource_index/packages/lab02_interfaces
+[5.344s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/export_lab02_interfaces__rosidl_generator_cExport.cmake
+[5.344s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/export_lab02_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.344s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/export_lab02_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.345s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/export_lab02_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.345s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/export_lab02_interfaces__rosidl_generator_cppExport.cmake
+[5.345s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/export_lab02_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.345s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/export_lab02_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.345s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/lab02_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.345s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/lab02_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.346s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/lab02_interfaces__rosidl_typesupport_cExport.cmake
+[5.346s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/lab02_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.346s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/lab02_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.346s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/lab02_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.346s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/lab02_interfaces__rosidl_typesupport_cppExport.cmake
+[5.347s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/lab02_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.347s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/export_lab02_interfaces__rosidl_generator_pyExport.cmake
+[5.347s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/export_lab02_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.347s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.348s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.348s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.348s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.348s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.348s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.349s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.349s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/lab02_interfacesConfig.cmake
+[5.349s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/cmake/lab02_interfacesConfig-version.cmake
+[5.349s] -- Up-to-date: /home/pederba/ros2_ws/install/lab02_interfaces/share/lab02_interfaces/package.xml
+[6.191s] Invoked command in '/home/pederba/ros2_ws/build/lab02_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pederba/ros2_ws/build/lab02_interfaces

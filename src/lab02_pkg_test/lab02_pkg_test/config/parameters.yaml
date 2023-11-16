@@ -1,0 +1,4 @@
+compute_trajectory:
+  ros_parameters:
+    scale_linear: 2.0
+    scale_angular: 100.0

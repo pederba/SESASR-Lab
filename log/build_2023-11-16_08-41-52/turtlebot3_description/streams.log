@@ -1,0 +1,48 @@
+[0.661s] Invoking command in '/home/pederba/ros2_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake /home/pederba/ros2_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pederba/ros2_ws/install/turtlebot3_description
+[0.698s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.183s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.378s] -- Configuring done
+[1.386s] -- Generating done
+[1.389s] -- Build files have been written to: /home/pederba/ros2_ws/build/turtlebot3_description
+[1.407s] Invoked command in '/home/pederba/ros2_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake /home/pederba/ros2_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pederba/ros2_ws/install/turtlebot3_description
+[1.408s] Invoking command in '/home/pederba/ros2_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pederba/ros2_ws/build/turtlebot3_description -- -j8 -l8
+[1.542s] Invoked command in '/home/pederba/ros2_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pederba/ros2_ws/build/turtlebot3_description -- -j8 -l8
+[1.629s] Invoking command in '/home/pederba/ros2_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pederba/ros2_ws/build/turtlebot3_description
+[1.648s] -- Install configuration: ""
+[1.648s] -- Execute custom install script
+[1.655s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/launch/model.launch.py
+[1.684s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[1.705s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/burger.urdf.xacro
+[1.736s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/burger_camera.urdf.xacro
+[1.759s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf.xacro
+[1.783s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf.xacro
+[1.810s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/waffle_pi.urdf.xacro
+[1.843s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo/burger.gazebo.xacro
+[1.867s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo/materials.xacro
+[1.889s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo/waffle_pi.gazebo.xacro
+[1.913s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/base.stl
+[1.939s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/ladar.stl
+[1.966s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/left_tire.stl
+[1.990s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/right_tire.stl
+[2.011s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/base.stl
+[2.040s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/ladar.stl
+[2.064s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/left_tire.stl
+[2.093s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/right_tire.stl
+[2.114s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/ros2_control/turtlebot3_system.ros2_control.xacro
+[2.142s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/turtlebot3_description.dsv
+[2.171s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[2.196s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[2.217s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[2.244s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[2.277s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[2.304s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[2.333s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[2.367s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[2.388s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[2.409s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[2.432s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[2.459s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[2.478s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[2.500s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[2.522s] -- Symlinking: /home/pederba/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[2.963s] Invoked command in '/home/pederba/ros2_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pederba/ros2_ws/build/turtlebot3_description

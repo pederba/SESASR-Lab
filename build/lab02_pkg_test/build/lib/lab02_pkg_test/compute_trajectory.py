@@ -25,7 +25,7 @@ class ComputeTrajectory(Node):
     
 
 
-    async def get_trajectory_callback(self, request, response):
+    def get_trajectory_callback(self, request, response):
 
         self._logger.info('Received request: x: %f, y: %f' % (request.x, request.y))   
 
@@ -37,16 +37,9 @@ class ComputeTrajectory(Node):
         goal_msg = RotateAbsolute.Goal()
         goal_msg.theta = response.direction
 
-        result_future = self._rotate_absolute_action_client.send_goal_async(goal_msg)
-        result = await result_future
-
-        if result.result is not None:
-            self._logger.info('Action completed successfully')
-        else:
-            self._logger.error('Action failed')
-
-        self._logger.info('Waiting for result')
-
+        self._rotate_absolute_action_client.wait_for_server()
+        self._rotate_absolute_action_client.send_goal_async(goal_msg)
+        
         return response
     
     
