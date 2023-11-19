@@ -1,0 +1,37 @@
+[2.284s] Invoking command in '/home/pederba/ros2_ws/src/lab03_pkg': PYTHONPATH=/home/pederba/ros2_ws/build/lab03_pkg/prefix_override:/home/pederba/ros2_ws/install/lab03_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab03_pkg build --build-base /home/pederba/ros2_ws/build/lab03_pkg/build install --record /home/pederba/ros2_ws/build/lab03_pkg/install.log --single-version-externally-managed
+[2.838s] running egg_info
+[2.874s] writing ../../build/lab03_pkg/lab03_pkg.egg-info/PKG-INFO
+[2.875s] writing dependency_links to ../../build/lab03_pkg/lab03_pkg.egg-info/dependency_links.txt
+[2.875s] writing entry points to ../../build/lab03_pkg/lab03_pkg.egg-info/entry_points.txt
+[2.875s] writing requirements to ../../build/lab03_pkg/lab03_pkg.egg-info/requires.txt
+[2.876s] writing top-level names to ../../build/lab03_pkg/lab03_pkg.egg-info/top_level.txt
+[2.953s] reading manifest file '../../build/lab03_pkg/lab03_pkg.egg-info/SOURCES.txt'
+[2.955s] writing manifest file '../../build/lab03_pkg/lab03_pkg.egg-info/SOURCES.txt'
+[2.955s] running build
+[2.956s] running build_py
+[2.956s] copying lab03_pkg/controller.py -> /home/pederba/ros2_ws/build/lab03_pkg/build/lib/lab03_pkg
+[2.958s] running install
+[2.958s] /home/pederba/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.958s] !!
+[2.959s] 
+[2.959s]         ********************************************************************************
+[2.959s]         Please avoid running ``setup.py`` directly.
+[2.959s]         Instead, use pypa/build, pypa/installer or other
+[2.959s]         standards-based tools.
+[2.960s] 
+[2.960s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.960s]         ********************************************************************************
+[2.960s] 
+[2.960s] !!
+[2.960s]   self.initialize_options()
+[2.973s] running install_lib
+[3.012s] copying /home/pederba/ros2_ws/build/lab03_pkg/build/lib/lab03_pkg/controller.py -> /home/pederba/ros2_ws/install/lab03_pkg/lib/python3.10/site-packages/lab03_pkg
+[3.014s] byte-compiling /home/pederba/ros2_ws/install/lab03_pkg/lib/python3.10/site-packages/lab03_pkg/controller.py to controller.cpython-310.pyc
+[3.017s] running install_data
+[3.058s] running install_egg_info
+[3.099s] removing '/home/pederba/ros2_ws/install/lab03_pkg/lib/python3.10/site-packages/lab03_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.100s] Copying ../../build/lab03_pkg/lab03_pkg.egg-info to /home/pederba/ros2_ws/install/lab03_pkg/lib/python3.10/site-packages/lab03_pkg-0.0.0-py3.10.egg-info
+[3.103s] running install_scripts
+[3.480s] Installing controller script to /home/pederba/ros2_ws/install/lab03_pkg/lib/lab03_pkg
+[3.481s] writing list of installed files to '/home/pederba/ros2_ws/build/lab03_pkg/install.log'
+[3.570s] Invoked command in '/home/pederba/ros2_ws/src/lab03_pkg' returned '0': PYTHONPATH=/home/pederba/ros2_ws/build/lab03_pkg/prefix_override:/home/pederba/ros2_ws/install/lab03_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab03_pkg build --build-base /home/pederba/ros2_ws/build/lab03_pkg/build install --record /home/pederba/ros2_ws/build/lab03_pkg/install.log --single-version-externally-managed
