@@ -37,9 +37,13 @@ class Controller(Node):
         self.__cmd_vel_publisher
 
         ## Parameters
-        self.max_linear_velocity = 4.0 # m/s
-        self.max_angular_velocity = 2.0 # rad/s
-        timer_freq = 500 # Hz
+        self.declare_parameter('max_linear_velocity', 0.22)
+        self.declare_parameter('max_angular_velocity', 1.5)
+        self.declare_parameter('timer_freq', 500)
+
+        self.max_linear_velocity = self.get_parameter('max_linear_velocity').value
+        self.max_angular_velocity = self.get_parameter('max_angular_velocity').value
+        timer_freq = self.get_parameter('timer_freq').value
 
         self.timer = self.create_timer(1/timer_freq, self.timer_callback)
 
@@ -121,7 +125,7 @@ class Controller(Node):
             self._logger.info('Bump')
             self.bumping = True
             
-            self.velocity_msg.linear.x = -1.0
+            self.velocity_msg.linear.x = -self.max_linear_velocity
             self.velocity_msg.angular.z = 0.0
 
             self.time_of_bump = time.time()

@@ -37,9 +37,13 @@ class Controller(Node):
         self.__cmd_vel_publisher
 
         ## Parameters
-        self.max_linear_velocity = 4.0 # m/s
-        self.max_angular_velocity = 2.0 # rad/s
-        timer_freq = 500 # Hz
+        self.declare_parameter('max_linear_velocity', 0.22)
+        self.declare_parameter('max_angular_velocity', 1.5)
+        self.declare_parameter('timer_freq', 500)
+
+        self.max_linear_velocity = self.get_parameter('max_linear_velocity').value
+        self.max_angular_velocity = self.get_parameter('max_angular_velocity').value
+        timer_freq = self.get_parameter('timer_freq').value
 
         self.timer = self.create_timer(1/timer_freq, self.timer_callback)
 
@@ -105,7 +109,6 @@ class Controller(Node):
 
             self.velocity_msg.linear.x = 0.0
             self.velocity_msg.angular.z = 0.0
-            self.__cmd_vel_publisher.publish(self.velocity_msg)
 
             self._logger.info('Done')
 
@@ -115,19 +118,17 @@ class Controller(Node):
             self._logger.info('Blocked')
             self.velocity_msg.linear.x = 0.0
             self.velocity_msg.angular.z = 0.0
-            self.__cmd_vel_publisher.publish(self.velocity_msg)
-            return
+            
 
         elif np.mean(self.lidar_scan[0:10] + self.lidar_scan[-10:]) < 0.5 and not self.bumping:
             
             self._logger.info('Bump')
             self.bumping = True
             
-            self.velocity_msg.linear.x = -1.0
+            self.velocity_msg.linear.x = -self.max_linear_velocity
             self.velocity_msg.angular.z = 0.0
 
             self.time_of_bump = time.time()
-            self.__cmd_vel_publisher.publish(self.velocity_msg)
             
     
         elif self.bumping:
@@ -135,7 +136,6 @@ class Controller(Node):
                 self.turning = True
                 self.bumping = False
                 self.velocity_msg.linear.x = 0.0
-                self.__cmd_vel_publisher.publish(self.velocity_msg)
 
                 if np.mean(self.lidar_scan[80:100]) > np.mean(self.lidar_scan[-100:-80]):
                     self._logger.info('Turn left')
@@ -165,6 +165,7 @@ class Controller(Node):
                 self.velocity_msg.angular.z = 0.0
             else:
                 self.velocity_msg.angular.z = np.clip(self.Kp * turn_error + self.Ki * self.integral_error, -self.max_angular_velocity, self.max_angular_velocity)
+
 
         self.__cmd_vel_publisher.publish(self.velocity_msg) 
                 

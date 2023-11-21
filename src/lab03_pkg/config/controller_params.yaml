@@ -1,0 +1,6 @@
+
+controller:
+  ros_parameters:
+    max_linear_velocity: 0.22
+    max_angular_velocity: 1.5
+    timer_freq: 500 
