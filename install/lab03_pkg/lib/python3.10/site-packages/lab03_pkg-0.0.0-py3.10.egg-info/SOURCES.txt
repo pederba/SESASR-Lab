@@ -8,8 +8,10 @@ setup.py
 ../../build/lab03_pkg/lab03_pkg.egg-info/requires.txt
 ../../build/lab03_pkg/lab03_pkg.egg-info/top_level.txt
 ../../build/lab03_pkg/lab03_pkg.egg-info/zip-safe
+config/controller_params.yaml
 lab03_pkg/__init__.py
 lab03_pkg/controller.py
+launch/controller.launch.py
 resource/lab03_pkg
 test/test_copyright.py
 test/test_flake8.py

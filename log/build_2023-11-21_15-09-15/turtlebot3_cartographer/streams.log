@@ -1,0 +1,45 @@
+[0.355s] Invoking command in '/home/pederba/ros2_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab03_pkg:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake /home/pederba/ros2_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/pederba/ros2_ws/install/turtlebot3_cartographer
+[0.549s] -- The C compiler identification is GNU 11.4.0
+[0.722s] -- The CXX compiler identification is GNU 11.4.0
+[0.741s] -- Detecting C compiler ABI info
+[0.950s] -- Detecting C compiler ABI info - done
+[0.968s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.968s] -- Detecting C compile features
+[0.969s] -- Detecting C compile features - done
+[0.975s] -- Detecting CXX compiler ABI info
+[1.305s] -- Detecting CXX compiler ABI info - done
+[1.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.325s] -- Detecting CXX compile features
+[1.325s] -- Detecting CXX compile features - done
+[1.331s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.346s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.780s] -- Configuring done
+[2.796s] -- Generating done
+[2.801s] -- Build files have been written to: /home/pederba/ros2_ws/build/turtlebot3_cartographer
+[2.858s] Invoked command in '/home/pederba/ros2_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab03_pkg:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake /home/pederba/ros2_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/pederba/ros2_ws/install/turtlebot3_cartographer
+[2.878s] Invoking command in '/home/pederba/ros2_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab03_pkg:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pederba/ros2_ws/build/turtlebot3_cartographer -- -j8 -l8
+[3.010s] Invoked command in '/home/pederba/ros2_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab03_pkg:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pederba/ros2_ws/build/turtlebot3_cartographer -- -j8 -l8
+[3.116s] Invoking command in '/home/pederba/ros2_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab03_pkg:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pederba/ros2_ws/build/turtlebot3_cartographer
+[3.277s] -- Install configuration: ""
+[3.277s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[3.277s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_2d.lua
+[3.278s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[3.278s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[3.278s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[3.299s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/cartographer.rviz
+[3.299s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[3.299s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[3.300s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[3.300s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[3.300s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[3.300s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[3.301s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[3.301s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[3.301s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[3.301s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[3.301s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[3.302s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[3.302s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[3.302s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[3.302s] -- Installing: /home/pederba/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[3.942s] Invoked command in '/home/pederba/ros2_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab03_pkg:/home/pederba/ros2_ws/install/lab02_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pederba/ros2_ws/build/turtlebot3_cartographer

@@ -1,0 +1,54 @@
+[6.828s] Invoking command in '/home/pederba/ros2_ws/src/py_pubsub': PYTHONPATH=/home/pederba/ros2_ws/build/py_pubsub/prefix_override:/home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/pederba/ros2_ws/build/py_pubsub/build install --record /home/pederba/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[8.179s] running egg_info
+[8.180s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[8.318s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[8.319s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[8.320s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[8.320s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[8.321s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[8.321s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[8.609s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[8.611s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[8.612s] running build
+[8.612s] running build_py
+[8.613s] creating /home/pederba/ros2_ws/build/py_pubsub/build
+[8.613s] creating /home/pederba/ros2_ws/build/py_pubsub/build/lib
+[8.614s] creating /home/pederba/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[8.614s] copying py_pubsub/publisher_member_function.py -> /home/pederba/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[8.615s] copying py_pubsub/subscriber_member_function.py -> /home/pederba/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[8.616s] copying py_pubsub/__init__.py -> /home/pederba/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[8.617s] running install
+[8.617s] /home/pederba/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[8.618s] !!
+[8.618s] 
+[8.618s]         ********************************************************************************
+[8.618s]         Please avoid running ``setup.py`` directly.
+[8.618s]         Instead, use pypa/build, pypa/installer or other
+[8.619s]         standards-based tools.
+[8.619s] 
+[8.619s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[8.619s]         ********************************************************************************
+[8.619s] 
+[8.619s] !!
+[8.620s]   self.initialize_options()
+[8.648s] running install_lib
+[8.707s] creating /home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[8.709s] copying /home/pederba/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[8.711s] copying /home/pederba/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[8.714s] copying /home/pederba/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[8.717s] byte-compiling /home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[8.734s] byte-compiling /home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[8.743s] byte-compiling /home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[8.746s] running install_data
+[8.860s] creating /home/pederba/ros2_ws/install/py_pubsub/share/ament_index
+[8.861s] creating /home/pederba/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[8.861s] creating /home/pederba/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[8.861s] copying resource/py_pubsub -> /home/pederba/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[8.861s] copying package.xml -> /home/pederba/ros2_ws/install/py_pubsub/share/py_pubsub
+[8.862s] running install_egg_info
+[8.961s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[8.964s] running install_scripts
+[9.716s] Installing listener script to /home/pederba/ros2_ws/install/py_pubsub/lib/py_pubsub
+[9.719s] Installing talker script to /home/pederba/ros2_ws/install/py_pubsub/lib/py_pubsub
+[9.722s] writing list of installed files to '/home/pederba/ros2_ws/build/py_pubsub/install.log'
+[9.853s] Invoked command in '/home/pederba/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/pederba/ros2_ws/build/py_pubsub/prefix_override:/home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/pederba/ros2_ws/build/py_pubsub/build install --record /home/pederba/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed

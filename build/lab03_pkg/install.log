@@ -4,6 +4,8 @@
 /home/pederba/ros2_ws/install/lab03_pkg/lib/python3.10/site-packages/lab03_pkg/__pycache__/controller.cpython-310.pyc
 /home/pederba/ros2_ws/install/lab03_pkg/share/ament_index/resource_index/packages/lab03_pkg
 /home/pederba/ros2_ws/install/lab03_pkg/share/lab03_pkg/package.xml
+/home/pederba/ros2_ws/install/lab03_pkg/share/lab03_pkg/launch/controller.launch.py
+/home/pederba/ros2_ws/install/lab03_pkg/share/lab03_pkg/config/controller_params.yaml
 /home/pederba/ros2_ws/install/lab03_pkg/lib/python3.10/site-packages/lab03_pkg-0.0.0-py3.10.egg-info/entry_points.txt
 /home/pederba/ros2_ws/install/lab03_pkg/lib/python3.10/site-packages/lab03_pkg-0.0.0-py3.10.egg-info/requires.txt
 /home/pederba/ros2_ws/install/lab03_pkg/lib/python3.10/site-packages/lab03_pkg-0.0.0-py3.10.egg-info/zip-safe

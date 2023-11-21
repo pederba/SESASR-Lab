@@ -5,6 +5,4 @@ lab02_interfaces.egg-info/SOURCES.txt
 lab02_interfaces.egg-info/dependency_links.txt
 lab02_interfaces.egg-info/top_level.txt
 lab02_interfaces/srv/__init__.py
-lab02_interfaces/srv/_cmd_move.py
-lab02_interfaces/srv/_compute_trajectory.py
 lab02_interfaces/srv/_get_trajectory.py

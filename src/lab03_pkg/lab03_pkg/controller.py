@@ -14,7 +14,7 @@ from sklearn.cluster import DBSCAN
 class Controller(Node):
 
     def __init__(self):
-        super().__init__('turtlebot3_controller')
+        super().__init__('controller')
 
         self.__lidar_scan_subscriber = self.create_subscription(
             LaserScan, 
@@ -37,9 +37,14 @@ class Controller(Node):
         self.__cmd_vel_publisher
 
         ## Parameters
-        self.declare_parameter('max_linear_velocity', 0.22)
-        self.declare_parameter('max_angular_velocity', 1.5)
-        self.declare_parameter('timer_freq', 500)
+        self.declare_parameters(
+            namespace='',
+            parameters=[
+                ('max_linear_velocity', 0.22),
+                ('max_angular_velocity', 1.5),
+                ('timer_freq', 500)
+            ]
+        )
 
         self.max_linear_velocity = self.get_parameter('max_linear_velocity').value
         self.max_angular_velocity = self.get_parameter('max_angular_velocity').value
@@ -111,6 +116,7 @@ class Controller(Node):
             self.velocity_msg.angular.z = 0.0
 
             self._logger.info('Done')
+            self.destroy_node()
 
             return
         
