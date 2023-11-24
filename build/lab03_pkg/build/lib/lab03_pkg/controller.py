@@ -99,7 +99,14 @@ class Controller(Node):
         intermediate_pose = np.array([6.5, 2.5, np.pi/2])
         final_pose = np.array([0.0, 0.0, np.pi])
 
-        if np.linalg.norm(self.pose[0:2] - intermediate_pose[0:2]) < 0.5 and not self.returning:
+        if np.linalg.norm(self.pose[0:2] - final_pose[0:2]) < 1 and abs(self.pose[2] - final_pose[2] < 0.01) and self.returning:
+            self.velocity_msg.linear.x = 0.0
+            self.velocity_msg.angular.z = 0.0
+            self._logger.info('Done')
+            self.destroy_node()
+            return
+
+        elif np.linalg.norm(self.pose[0:2] - intermediate_pose[0:2]) < 0.5 and not self.returning:
 
             self._logger.info('Halfway')
 
@@ -108,15 +115,17 @@ class Controller(Node):
             self.turning = True
             self.returning = True
 
-            self.goal_heading = -intermediate_pose[2]
+            self.goal_heading = intermediate_pose[2]
 
         elif np.linalg.norm(self.pose[0:2] - final_pose[0:2]) < 1 and self.returning:
 
             self.velocity_msg.linear.x = 0.0
-            self.velocity_msg.angular.z = 0.0
+
+            self.turning = True
+            self.goal_heading = final_pose[2]
 
             self._logger.info('Done')
-            self.destroy_node()
+            
 
             return
         
