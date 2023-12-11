@@ -5,4 +5,3 @@ Summary: Tutorial publisher subscriber
 Maintainer: pederba
 Maintainer-email: peder.basmo@gmail.com
 License: Apache License 2.0
-Requires-Dist: setuptools

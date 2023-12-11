@@ -1,0 +1,41 @@
+[1.333s] Invoking command in '/home/pederba/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab05_pkg:/home/pederba/ros2_ws/install/lab03_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pederba/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[1.575s] [100%] Built target dynamixel_sdk
+[1.654s] Invoked command in '/home/pederba/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab05_pkg:/home/pederba/ros2_ws/install/lab03_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pederba/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[2.605s] Invoking command in '/home/pederba/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab05_pkg:/home/pederba/ros2_ws/install/lab03_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pederba/ros2_ws/build/dynamixel_sdk
+[2.781s] -- Install configuration: ""
+[2.782s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include/
+[2.782s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk
+[2.782s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[2.782s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[2.782s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[2.783s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[2.783s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[2.783s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[2.783s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[2.784s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[2.784s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[2.784s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[2.784s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[2.784s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[2.785s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[2.785s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[2.785s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[2.786s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[2.787s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[2.787s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[2.787s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[2.788s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[2.788s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[2.789s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[2.789s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[2.789s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[2.791s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[2.791s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[2.791s] -- Installing: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[2.792s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[2.792s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.792s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[2.792s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[2.792s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[2.792s] -- Up-to-date: /home/pederba/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[3.339s] Invoked command in '/home/pederba/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pederba/ros2_ws/install/lab02_pkg_test:/home/pederba/ros2_ws/install/turtlebot3_teleop:/home/pederba/ros2_ws/install/turtlebot3_example:/home/pederba/ros2_ws/install/py_pubsub:/home/pederba/ros2_ws/install/lab05_pkg:/home/pederba/ros2_ws/install/lab03_pkg:/home/pederba/ros2_ws/install/lab01_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pederba/ros2_ws/build/dynamixel_sdk

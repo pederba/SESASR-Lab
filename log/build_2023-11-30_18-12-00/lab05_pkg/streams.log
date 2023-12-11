@@ -1,0 +1,35 @@
+[9.231s] Invoking command in '/home/pederba/ros2_ws/build/lab05_pkg': PYTHONPATH=/home/pederba/ros2_ws/build/lab05_pkg/prefix_override:/home/pederba/ros2_ws/install/lab05_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pederba/ros2_ws/build/lab05_pkg/build
+[10.237s] running develop
+[10.237s] /home/pederba/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[10.238s]   warnings.warn(
+[10.320s] /home/pederba/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.320s]   warnings.warn(
+[10.900s] Removing /home/pederba/ros2_ws/install/lab05_pkg/lib/python3.10/site-packages/lab05-pkg.egg-link (link to .)
+[11.993s] Invoked command in '/home/pederba/ros2_ws/build/lab05_pkg' returned '0': PYTHONPATH=/home/pederba/ros2_ws/build/lab05_pkg/prefix_override:/home/pederba/ros2_ws/install/lab05_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/pederba/ros2_ws/build/lab05_pkg/build
+[11.997s] Invoking command in '/home/pederba/ros2_ws/src/lab05/lab05_pkg': PYTHONPATH=/home/pederba/ros2_ws/build/lab05_pkg/prefix_override:/home/pederba/ros2_ws/install/lab05_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/lab05_pkg build --build-base /home/pederba/ros2_ws/build/lab05_pkg/build install --record /home/pederba/ros2_ws/build/lab05_pkg/install.log --single-version-externally-managed
+[13.126s] running egg_info
+[13.192s] writing ../../../build/lab05_pkg/lab05_pkg.egg-info/PKG-INFO
+[13.195s] writing dependency_links to ../../../build/lab05_pkg/lab05_pkg.egg-info/dependency_links.txt
+[13.196s] writing entry points to ../../../build/lab05_pkg/lab05_pkg.egg-info/entry_points.txt
+[13.196s] writing requirements to ../../../build/lab05_pkg/lab05_pkg.egg-info/requires.txt
+[13.196s] writing top-level names to ../../../build/lab05_pkg/lab05_pkg.egg-info/top_level.txt
+[13.324s] reading manifest file '../../../build/lab05_pkg/lab05_pkg.egg-info/SOURCES.txt'
+[13.326s] writing manifest file '../../../build/lab05_pkg/lab05_pkg.egg-info/SOURCES.txt'
+[13.327s] running build
+[13.327s] running build_py
+[13.329s] running install
+[13.330s] /home/pederba/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.330s]   warnings.warn(
+[13.347s] running install_lib
+[13.408s] creating /home/pederba/ros2_ws/install/lab05_pkg/lib/python3.10/site-packages/lab05_pkg
+[13.409s] copying /home/pederba/ros2_ws/build/lab05_pkg/build/lib/lab05_pkg/recorder.py -> /home/pederba/ros2_ws/install/lab05_pkg/lib/python3.10/site-packages/lab05_pkg
+[13.409s] copying /home/pederba/ros2_ws/build/lab05_pkg/build/lib/lab05_pkg/__init__.py -> /home/pederba/ros2_ws/install/lab05_pkg/lib/python3.10/site-packages/lab05_pkg
+[13.411s] byte-compiling /home/pederba/ros2_ws/install/lab05_pkg/lib/python3.10/site-packages/lab05_pkg/recorder.py to recorder.cpython-310.pyc
+[13.413s] byte-compiling /home/pederba/ros2_ws/install/lab05_pkg/lib/python3.10/site-packages/lab05_pkg/__init__.py to __init__.cpython-310.pyc
+[13.414s] running install_data
+[13.481s] running install_egg_info
+[13.547s] Copying ../../../build/lab05_pkg/lab05_pkg.egg-info to /home/pederba/ros2_ws/install/lab05_pkg/lib/python3.10/site-packages/lab05_pkg-0.0.0-py3.10.egg-info
+[13.550s] running install_scripts
+[13.751s] Installing recorder script to /home/pederba/ros2_ws/install/lab05_pkg/lib/lab05_pkg
+[13.753s] writing list of installed files to '/home/pederba/ros2_ws/build/lab05_pkg/install.log'
+[14.171s] Invoked command in '/home/pederba/ros2_ws/src/lab05/lab05_pkg' returned '0': PYTHONPATH=/home/pederba/ros2_ws/build/lab05_pkg/prefix_override:/home/pederba/ros2_ws/install/lab05_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/lab05_pkg build --build-base /home/pederba/ros2_ws/build/lab05_pkg/build install --record /home/pederba/ros2_ws/build/lab05_pkg/install.log --single-version-externally-managed

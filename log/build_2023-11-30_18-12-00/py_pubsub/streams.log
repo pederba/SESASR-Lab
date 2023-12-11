@@ -1,0 +1,24 @@
+[6.466s] Invoking command in '/home/pederba/ros2_ws/src/py_pubsub': PYTHONPATH=/home/pederba/ros2_ws/build/py_pubsub/prefix_override:/home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/pederba/ros2_ws/build/py_pubsub/build install --record /home/pederba/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[7.752s] running egg_info
+[7.798s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[7.798s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[7.800s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[7.800s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[7.800s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[7.902s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[7.905s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[7.907s] running build
+[7.907s] running build_py
+[7.907s] running install
+[7.910s] /home/pederba/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.931s]   warnings.warn(
+[7.951s] running install_lib
+[8.070s] running install_data
+[8.139s] running install_egg_info
+[8.200s] removing '/home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[8.200s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[8.202s] running install_scripts
+[8.477s] Installing listener script to /home/pederba/ros2_ws/install/py_pubsub/lib/py_pubsub
+[8.477s] Installing talker script to /home/pederba/ros2_ws/install/py_pubsub/lib/py_pubsub
+[8.478s] writing list of installed files to '/home/pederba/ros2_ws/build/py_pubsub/install.log'
+[8.683s] Invoked command in '/home/pederba/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/pederba/ros2_ws/build/py_pubsub/prefix_override:/home/pederba/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/pederba/ros2_ws/build/py_pubsub/build install --record /home/pederba/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
