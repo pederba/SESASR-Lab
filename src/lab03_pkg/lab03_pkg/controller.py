@@ -8,7 +8,6 @@ from rclpy.node import Node
 from sensor_msgs.msg import LaserScan
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Twist
-from sklearn.cluster import DBSCAN
 
 
 class Controller(Node):
